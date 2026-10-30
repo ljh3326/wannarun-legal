@@ -35,7 +35,8 @@ a { color: var(--tint); }
 .meta { color: var(--muted); font-size: 14px; }
 .box { background: var(--soft); border-radius: 12px; padding: 12px 16px; margin: 12px 0; }
 .table { width: 100%; overflow-x: auto; }
-table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 520px; }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.table.wide table { min-width: 560px; } /* 열이 많은 표만 옆으로 밀어 본다 */
 th, td { border: 1px solid var(--line); padding: 8px; text-align: left; vertical-align: top; }
 th { background: var(--soft); }
 nav { font-size: 14px; margin-bottom: 16px; }
